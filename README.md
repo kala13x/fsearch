@@ -59,7 +59,7 @@ fsearch -d targetDirectoryPath -f lost+file -b 100 -t b
 
 ### Output
 
-Example of the recursive search output (`-v` option):
+Example of the recursive search output (`-r` option):
 ```
 ./project/shared/cpr/test/data/ca.key
 ./project/shared/cpr/test/data/client.key
