@@ -56,3 +56,37 @@ fsearch [-i <indentation>] [-f <file_name>] [-b <file_size>]
 ```
 fsearch -d targetDirectoryPath -f lost+file -b 100 -t b
 ```
+
+### Output
+
+Example of the recursive search output (`-v` option)
+```
+./project/shared/cpr/test/data/ca.key
+./project/shared/cpr/test/data/client.key
+./project/shared/cpr/test/data/server.key
+./stuff/certs/server.key
+```
+
+Example of the nicely formated output (`-i` option)
+```
+.
+|---project
+|------shared
+|---------cpr
+|------------test
+|---------------data
+|------------------ca.key
+|------------------client.key
+|------------------server.key
+|---stuff
+|------certs
+|---------server.key
+```
+
+Example of the verbosed output (`-v` option)
+```
+-rw-r--r--  1  kala  kala        3468 [Mar  9 03:20] ./project/shared/cpr/test/data/ca.key
+-rw-r--r--  1  kala  kala        3294 [Mar  9 03:20] ./project/shared/cpr/test/data/client.key
+-rw-r--r--  1  kala  kala        3294 [Mar  9 03:20] ./project/shared/cpr/test/data/server.key
+-rw-------  1  kala  kala        3243 [Mar  9 03:20] ./stuff/certs/server.key
+```
