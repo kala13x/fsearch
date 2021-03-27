@@ -85,8 +85,8 @@ Example of the nicely formated output (`-i` option):
 
 Example of the verbosed output (`-v` option):
 ```
--rw-r--r--  1  kala  kala        3468 [Mar  9 03:20] ./project/shared/cpr/test/data/ca.key
--rw-r--r--  1  kala  kala        3294 [Mar  9 03:20] ./project/shared/cpr/test/data/client.key
--rw-r--r--  1  kala  kala        3294 [Mar  9 03:20] ./project/shared/cpr/test/data/server.key
--rw-------  1  kala  kala        3243 [Mar  9 03:20] ./stuff/certs/server.key
+-rw-r--r--  1  kala  kala    3468 [Mar  9 03:20] ./project/shared/cpr/test/data/ca.key
+-rw-r--r--  1  kala  kala    3294 [Mar  9 03:20] ./project/shared/cpr/test/data/client.key
+-rw-r--r--  1  kala  kala    3294 [Mar  9 03:20] ./project/shared/cpr/test/data/server.key
+-rw-------  1  kala  kala    3243 [Mar  9 03:20] ./stuff/certs/server.key
 ```
