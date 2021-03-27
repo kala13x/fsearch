@@ -19,7 +19,7 @@ extern char *optarg;
 
 #define FSEARCH_VERSION_MAX     0
 #define FSEARCH_VERSION_MIN     1
-#define FSEARCH_BUILD_NUMBER    5
+#define FSEARCH_BUILD_NUMBER    6
 
 static void fsearch_config_init(fsearch_cfg_t *pcfg, const char *pname)
 {

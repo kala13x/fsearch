@@ -259,7 +259,7 @@ static int fsearch_get_info(fsearch_cfg_t *pcfg, struct stat *pstat, char *outpu
     for (i = 0; i < FSEARCH_SIZE_LEN; i++)
     {
         if (sizebuf[i] != '0') break;
-        sizebuf[i] = ' ';
+        else if (i != FSEARCH_SIZE_LEN - 1) sizebuf[i] = ' ';
     }
 
     sizebuf[FSEARCH_SIZE_LEN] = '\0';
